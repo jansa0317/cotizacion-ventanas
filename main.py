@@ -11,13 +11,13 @@ def main():
 
     # Crear ventanas
     ventana1 = Ventana("O", 120, 90, aluminio_pulido, vidrio_transparente, 1)
-    ventana2 = Ventana("XO", 180, 90, aluminio_lacado_bril, vidrio_bronce, 2)
+    ventana2 = Ventana("XO", 180, 100, aluminio_lacado_bril, vidrio_bronce, 2)
 
     # Crear cliente
     cliente = Cliente("Constructora ABC", "Empresa XYZ")
 
     # Crear cotización
-    cotizacion = Cotizacion(cliente, [ventana1, ventana2])
+    cotizacion = Cotizacion(cliente, [ventana2])
 
     # Calcular y mostrar el costo total
     costo_total = cotizacion.calcular_costo_total()

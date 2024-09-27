@@ -1,12 +1,12 @@
 class Aluminio:
     def __init__(self, nombre, precio):
         self.nombre = nombre
-        self.precio = precio  # Atributo corregido
+        self.precio = precio  
 
 class Vidrio:
     def __init__(self, nombre, precio, esmerilado=False):
         self.nombre = nombre
-        self.precio = precio  # Atributo corregido
+        self.precio = precio  
         self.esmerilado = esmerilado
 
 class Ventana:
