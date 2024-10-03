@@ -12,3 +12,6 @@ Este proyecto tiene como objetivo mejorar el proceso de cotización de ventanas 
 - `app/clases.py`: Contiene las clases principales para el sistema de cotización.
 - `main.py`: Archivo de ejecución principal que permite crear cotizaciones para los clientes.
 - `tests/test_clases.py`: Contiene las pruebas unitarias para validar los cálculos.
+
+## Codigo Para ejecutar pruebas test clases
+python -m unittest discover -s tests
